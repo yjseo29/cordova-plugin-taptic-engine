@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <plugin
     id="cordova-plugin-taptic-engine"
-    version="2.2.0"
+    version="3.0.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0">
 
   <name>Taptic Engine</name>
@@ -34,6 +34,15 @@
 
     <!-- required only for the unofficial API -->
     <framework src="AudioToolbox.framework" weak="true" />
+  </platform>
+
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="TapticEngine">
+        <param name="android-package" value="org.apache.cordova.TapticEngine"/>
+      </feature>
+    </config-file>
+    <source-file src="src/android/TapticEngine.java" target-dir="src/org/apache/cordova" />
   </platform>
 
 </plugin>
