@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine.git"
+    "url": "git+https://github.com/yjseo29/cordova-plugin-taptic-engine.git"
   },
   "keywords": [
     "Taptic Engine",
@@ -35,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine/issues"
   },
-  "homepage": "https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine#readme"
+  "homepage": "https://github.com/yjseo29/cordova-plugin-taptic-engine#readme"
 }
